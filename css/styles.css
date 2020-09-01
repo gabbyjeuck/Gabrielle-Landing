@@ -1,0 +1,304 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+}
+
+hr {
+  background-color: #55ACEE;
+}
+
+/* HEADER / TITLES SECTION */
+#header .container-fluid {
+  padding: 3% 15%;
+}
+
+#header {
+  position: relative;
+  margin-top: 0;
+  background-color: #292F33;
+  overflow: hidden;
+  text-align: left;
+}
+
+.title {
+  color: white;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-left: 15px;
+  padding-bottom: 2rem;
+}
+
+/* NAVIGATION BAR SECTION */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* PICK ME SECTION */
+#pickme {
+  background-color: #CCD6DD;
+}
+
+#pickme .container-fluid {
+  padding: 3% 15%;
+}
+
+.pickme-header {
+  padding-top: 5%;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.pickme-col {
+  text-align: center;
+  color: #292F33;
+  padding: 5%;
+}
+
+.pickme-details {
+  color: #292F33;
+  font-size: 1.2rem;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #55ACEE;
+}
+
+#about .container-fluid {
+  padding: 3% 15%;
+}
+
+.about-col {
+  text-align: center;
+  color: #E1E8ED;
+  padding: 5%;
+}
+
+.about-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.about-details {
+  color: #292F33;
+  font-size: 1rem;
+}
+
+.about-imgs {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-imgs:hover {
+  color: #000000;
+}
+
+/* SKILLS SECTION */
+#skills {
+  background-color: white;
+}
+
+#skills .container-fluid {
+  padding: 3% 15%;
+}
+
+.skills-header {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #55ACEE;
+}
+
+.skills-col {
+  padding: 5%;
+}
+
+.skills-text {
+  font-family: 'Montserrat';
+  font-size: 1.0rem;
+  padding: 5%;
+  text-align: center;
+}
+
+.skills-image {
+  float: left;
+  width: 50%;
+  margin: 5% 25%;
+}
+
+/* MAKES ICONS BLACK FOR CAROUSEL*/
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+/* PORTFOLIO SECTION */
+#portfolio .container-fluid {
+  padding: 3% 15%;
+}
+
+.project-header {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #292F33;
+}
+
+.project {
+  font-family: 'Montserrat';
+  padding: 5%;
+  float: left;
+}
+
+.description-proj {
+  font-family: 'Ubuntu';
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+
+.project-img:hover {
+  transition-timing-function: ease-in;
+  border-radius: 2%;
+  transform: scale(2.5);
+  transition: .5s ease;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.project-img {
+  transition-timing-function: ease-in;
+  transition: .25s ease;
+  border-radius: 2%;
+  float: left;
+  width: 50%;
+  margin: 5% 25%;
+}
+
+.titles {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+/* PORTFOLIO SECTION / GIT HUB LINK  */
+.github-info {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.github-text {
+  color: #55ACEE;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.github-text:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.github-imgs {
+  margin: 0 5% 0 5%;
+  font-size: 3rem;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background-color: #292F33;
+}
+
+#contact .container-fluid {
+  padding: 3% 15%;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #55ACEE;
+}
+
+.contact-col {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  color: #E1E8ED;
+  padding: 5%;
+}
+
+.contact-header {
+  font-weight: 900;
+}
+
+.contact-heading {
+  font-weight: 700;
+}
+
+.contact-details {
+  color: #66757F;
+  font-size: 1rem;
+}
+
+.contact-details, .contact-details a {
+  color: #66757F;
+  font-size: 1rem;
+}
+
+.contact-details a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.me-img {
+  display: block;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.me-div {
+  left: 20%;
+  margin: auto;
+}
+
+@media (max-width: 1028px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  #header {
+    text-align: center;
+  }
+}
