@@ -18,7 +18,7 @@
 <body>
   <!-- Nav Bar -->
   <section id="header">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">GABRIELLE JEUCK</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,13 +51,13 @@
       </div>
   </section>
   </div>
-
+  <button onclick="topFunction()" class="fas fa-caret-up" id="myBtn" title="Go to top"></button>
   <!-- ABOUT SECTION -->
   <section id="about">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <div class="row">
 
-        <div class="col-lg-4 about-col">
+        <div class="col-lg-4 col-xs-12 about-col">
           <i class="fas fa-child about-imgs"></i>
           <h3 class="about-heading">Parent.</h3>
           <p class="about-details">
@@ -67,7 +67,7 @@
           </p>
         </div>
 
-        <div class="col-lg-4 about-col">
+        <div class="col-lg-4 col-xs-12 about-col">
           <i class="fas fa-code about-imgs"></i>
           <h3 class="about-heading">Programmer</h3>
           <p class="about-details">
@@ -80,7 +80,7 @@
           </p>
         </div>
 
-        <div class="col-lg-4 about-col">
+        <div class="col-lg-4 col-xs-12 about-col">
           <i class="fas fa-graduation-cap about-imgs"></i>
           <h3 class="about-heading">Student</h3>
           <p class="about-details">
@@ -96,7 +96,7 @@
 
   <!-- SKILLS SECTION -->
   <section id="skills">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <h1 class="skills-header">NON-HUMAN LANGUAGES</h1>
       <div id="skills-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -180,10 +180,10 @@
     </div>
   </section>
   <section id="pickme">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <h3 class="pickme-header">WHY PICK ME</h3>
       <div class="row">
-        <div class="col-lg-6 pickme-col">
+        <div class="col-lg-6 col-xs-12 pickme-col">
           <hr>
           <p class="pickme-details">
             I am a passionate learner and someone who enjoys digging deep into development projects.
@@ -195,7 +195,7 @@
           </p>
           <hr>
         </div>
-        <div class="col-lg-6 pickme-col">
+        <div class="col-lg-6 col-xs-12 pickme-col">
           <hr>
           <p class="pickme-details">
             I speak to inanimate objects
@@ -213,25 +213,25 @@
 
   <!--PORTFOLIO SECTION -->
   <section id="portfolio">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <h1 class="project-header">WEB PORTFOLIO</h1>
 
       <div class="row">
-        <div class="project col-lg-4 ">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Tori's Adventures</p>
           <a href="https://gabbyjeuck.github.io/Toris_Adventures/" target="_blank">
             <img class="project-img" src="images/TorisAdventures.JPG" /></a>
           <p class="description-proj">An authors collection of stories utilizing Bootstrap</p>
         </div>
 
-        <div class="project col-lg-4">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Marvelous Developments</p>
           <a href="#">
             <img class="project-img" src="images/MD_Edition1.JPG" /></a>
           <p class="description-proj">An original of Marvelous Dev. utilizing basic HTML and CSS.</p>
         </div>
 
-        <div class="project col-lg-4">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Marvelous Developments</p>
           <a href="#">
             <img class="project-img" src="images/MD_Edition2.JPG" /></a>
@@ -240,21 +240,21 @@
       </div>
 
       <div class="row">
-        <div class="project col-lg-4">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Marvelous Developments</p>
           <a href="#">
             <img class="project-img" src="images/MD_Edition3.PNG" /></a>
           <p class="description-proj">An original of Marvelous Dev. utilizing basic HTML and CSS.</p>
         </div>
 
-        <div class="project col-lg-4">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Simon Says Game</p>
           <a href="https://gabbyjeuck.github.io/Simon_Says_Game/" target="_blank">
             <img class="project-img" src="images/Simon_Says.JPG" /> </a>
           <p class="description-proj">A classic game of Simon Says created with javascript.</p>
         </div>
 
-        <div class="project col-lg-4">
+        <div class="project col-lg-4 col-xs-12">
           <p class="titles">Marvelous Developments</p>
           <a href="#">
             <img class="project-img" src="images/MD_Edition4.JPG" /></a>
@@ -263,33 +263,35 @@
       </div>
 
       <!--GITHUB LINK SECTION -->
-      <div class="github-info ">
-        <i class="fas fa-angle-double-down github-imgs"></i>
-        <i class="fab fa-github-alt github-imgs"></i>
-        <i class="fas fa-angle-double-down github-imgs"></i>
-        <a href="https://github.com/gabbyjeuck" target="_blank" class="github-text">
-          <p>Additional Portfolio for Java and Python Applications</p>
-        </a>
+      <div class="row">
+        <div class="github-info ">
+          <i class="fas fa-angle-double-down github-imgs"></i>
+          <i class="fab fa-github-alt github-imgs"></i>
+          <i class="fas fa-angle-double-down github-imgs"></i>
+          <a href="https://github.com/gabbyjeuck" target="_blank" class="github-text">
+            <p>Additional Portfolio for Java and Python Applications</p>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Get In Touch CONTACT SECION-->
   <section id="contact">
-    <div class="container-fluid fader">
+    <div class="container fader">
       <h1 class="contact-header">Get In Touch</h1>
       <div class="row">
-        <div class="col-lg-4 contact-col">
+        <div class="col-lg-4 col-xs-12 contact-col">
           <h3 class="contact-heading">Email</h3>
           <p class="contact-details">G.winsor629@gmail.com
           </p>
         </div>
-        <div class="col-lg-4 contact-col">
+        <div class="col-lg-4 col-xs-12 contact-col">
           <h3 class="contact-heading">Phone</h3>
           <p class="contact-details">(760)514-8442
           </p>
         </div>
-        <div class="col-lg-4 contact-col">
+        <div class="col-lg-4 col-xs-12 contact-col">
           <h3 class="contact-heading">LinkedIn</h3>
           <p class="contact-details"><a href="https://www.linkedin.com/in/gjeuck/">Message Me</a>
           </p>
