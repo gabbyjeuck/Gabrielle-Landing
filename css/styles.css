@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-hr {
-  background-color: #55ACEE;
-}
-
 #header {
   position: relative;
   margin-top: 0;
@@ -24,6 +20,9 @@ hr {
   text-align: left;
 }
 
+.me-div {
+  margin: auto;
+}
 .title {
   color: white;
   font-family: 'Montserrat-Black', sans-serif;
@@ -63,7 +62,7 @@ hr {
 
 .pickme-header {
   padding-top: 5%;
-  color: #FFFFFF;
+  color:#292F33;
   font-weight: 900;
   font-size: 32px;
   text-align: center;
@@ -88,7 +87,7 @@ hr {
 .about-col {
   text-align: center;
   color: #E1E8ED;
-  padding: 5%;
+  padding:10%;
 }
 
 .about-heading {
