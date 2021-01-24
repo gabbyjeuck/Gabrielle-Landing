@@ -290,3 +290,10 @@ h1, h2, h3, h4, h5, h6 {
 #myBtn:hover {
   color: #000000;
 }
+
+@media (max-width: 991px){
+  .me-div {
+      margin:0 auto;
+      position: inherit!important;
+  }
+}
